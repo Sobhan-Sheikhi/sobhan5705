@@ -1,0 +1,45 @@
+@import "media";
+@import "tools";
+@import "layout";
+@import "styling";
+
+
+
+
+
+
+
+
+@font-face {
+    font-family: "vaziri";
+    src:url("../fonts/Vazir.ttf");
+    src:url("../fonts/Vazir.woff");
+    src:url("../fonts/Vazir.woff2");
+}
+
+
+
+
+*{
+    box-sizing: border-box;
+    font-family: "vaziri";  
+}
+button{
+    background-color: $color-bottum;
+    color: $color-white;
+    cursor: pointer;
+    border-radius: 5px;
+    border: none;
+    font-size: 17px;
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    list-style-type: none;
+}
+
+
+

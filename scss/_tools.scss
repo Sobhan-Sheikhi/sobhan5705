@@ -1,0 +1,40 @@
+$color-bottum: #FF00A6;
+$color-white:#FFFFFF;
+$color-mat:#ff3aba;
+$color-silver: #c2c2c2;
+$color-font: #3A3D42;
+$color-font2: #74777C;
+$color-header:#F9FAFB;
+
+
+@mixin boxshadow{
+    box-shadow: 0px 5px 10px $color-silver;
+}
+
+
+@mixin centering{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+@mixin items{
+    background-color: #FF00A6;
+    width: 180px;
+    height: 100px;
+    border-radius: 10px;
+    position: relative;
+}
+
+@mixin hover{
+    :hover{
+        background-color: $color-mat;
+    }
+}
+@mixin margin{
+    padding-top: 20px;
+}
+@mixin transition{
+    transition: all 0.3s;
+}
